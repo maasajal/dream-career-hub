@@ -1,11 +1,8 @@
-const SectionTitle = () => {
+const SectionTitle = ({ sectionTitle, sectionDescription }) => {
   return (
-    <div className="text-center my-20">
-      <h2 className="text-5xl font-extrabold">Job Category List</h2>
-      <p className="my-4">
-        Explore thousands of job opportunities with all the information you
-        need. Its your future
-      </p>
+    <div className="text-center my-16">
+      <h2 className="text-5xl font-extrabold">{sectionTitle}</h2>
+      <p className="mt-4">{sectionDescription}</p>
     </div>
   );
 };
