@@ -71,8 +71,8 @@ const Footer = () => {
           </nav>
         </div>
       </footer>
-      <footer className="px-10 py-4 border-t bg-black text-white">
-        <div className="footer max-w-5xl mx-auto">
+      <footer className="px-10 py-4 bg-black text-white">
+        <div className="footer max-w-5xl mx-auto border-t py-6">
           <aside className="items-center grid-flow-col">
             <p>@2024 DreamCareerHub. All Rights Reserved</p>
           </aside>
